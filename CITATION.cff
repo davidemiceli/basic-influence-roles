@@ -6,6 +6,25 @@ authors:
   orcid: "https://orcid.org/0009-0008-9922-7817"
 title: "Basic Influence Roles (BIRs)"
 version: 1.0.0
-# doi: 10.5281/zenodo.1234
+publisher: "GitHub"
+journal: "GitHub repository"
+howpublished: "https://github.com/davidemiceli/basic-influence-roles"
 date-released: 2024-03-09
 url: "https://github.com/davidemiceli/basic-influence-roles"
+license: MIT
+license-url: "https://github.com/davidemiceli/basic-influence-roles/blob/main/LICENSE"
+# preferred-citation:
+#   type: article
+#   authors:
+#   - family-names: "Miceli"
+#     given-names: "Davide"
+#     orcid: "https://orcid.org/0009-0008-9922-7817"
+#   doi: "00.0000/00000"
+#   journal: "Journal Title"
+#   month: 3
+#   start: 1 # First page number
+#   end: 10 # Last page number
+#   title: "My awesome research software"
+#   issue: 1
+#   volume: 1
+#   year: 2024
