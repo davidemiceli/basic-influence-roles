@@ -12,7 +12,7 @@ The algorithm is implemented in the following programming languages:
 ## Roles
 
 <p align="center">
-  <img src="figs/roles.svg" width="500">
+  <img src="figs/roles.svg" width="600">
 </p>
 
 Role | Description | Levels
@@ -27,7 +27,7 @@ Isolated | A totally non-participatory (or totally disconnected) node | *none*
 ## Levels of role
 
 <p align="center">
-  <img src="figs/branch-roles.svg" width="300">
+  <img src="figs/branch-roles.svg" width="400">
 </p>
 
 Role | Description
