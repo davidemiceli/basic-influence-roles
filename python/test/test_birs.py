@@ -1,6 +1,6 @@
 import unittest
 import networkx as nx
-from src.birs import BIRs
+import BIRs
 from mocks.permutations import permutations
 from mocks.test_graph import test_graph
 from mocks.distributions import distributions

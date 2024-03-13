@@ -175,3 +175,5 @@ cython_debug/
 *.out
 *.log
 *.run.xml
+
+publish.sh

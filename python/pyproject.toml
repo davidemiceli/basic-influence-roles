@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "basic-influence-roles"
+version = "1.0.0"
+authors = [
+    { name = "Davide Miceli" },
+]
+maintainers = [
+    { name = "Davide Miceli" },
+]
+license = { file = "LICENSE" }
+description = "Package to Detect and Measure the Influence Role each node plays within a Directed Network."
+readme = "README.md"
+requires-python = ">=3.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 5 - Production/Stable",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Sociology",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: Science/Research"
+]
+keywords = [
+  "graph", "network", "clustering", "complex networks", "network analysis", "social network analysis", "network science",
+  "influence network", "network dynamics", "social influence", "social role", "social sciences"
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["coverage", "networkx"]
+
+[project.urls]
+Homepage = "https://github.com/davidemiceli/basic-influence-roles"
+Issues = "https://github.com/davidemiceli/basic-influence-roles/issues"
