@@ -13,7 +13,7 @@ Given a large dataset of nodes as input, the algorithm provides:
 The algorithm is implemented in the following programming languages:
 - [**Python**](/python)
 
-## Roles
+## Basic Influence Roles (BIRs)
 
 <p align="center">
   <img src="figs/roles.svg" width="600">
@@ -28,7 +28,7 @@ Role | Description | Levels
 `Receiver` | A node which receives only interactions, but does not produce any. | `branch`, `weak`, `strong`, `top`
 `Isolated` | A totally non-participatory (or totally disconnected) node | `none`
 
-## Levels of role
+## BIRs' Levels
 
 <p align="center">
   <img src="figs/branch-roles.svg" width="400">
@@ -42,9 +42,9 @@ Role | Description
 `Strong` | A strong role influence.
 `Top` | The greatest influence related to a given role.
 
-## Influence measure
+## BIRs' Influence Measure
 
-Influence measure is a normalized value to quantify the influence magnitude of every role.
+Influence measure is a normalized value to quantify the magnitude of influence for each role.
 
 ## Research Notebooks
 
