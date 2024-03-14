@@ -12,7 +12,7 @@ maintainers = [
     { name = "Davide Miceli" },
 ]
 license = { file = "LICENSE" }
-description = "Package to Detect and Measure the Influence Role each node plays within a Directed Network."
+description = "Python package to detect and measure the Basic Influence Role each node holds within a Directed Network."
 readme = "README.md"
 requires-python = ">=3.0"
 classifiers = [

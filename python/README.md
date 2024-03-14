@@ -2,9 +2,16 @@
 
 _**Detect and measure the basic role of influence each node plays within a directed network.**_ 
 
-It support a raw list of nodes, a NetworkX DiGraph, as well as a method to be used in a distributed context for Big Data use cases.
+It supports a raw list of nodes, a NetworkX DiGraph, as well as a method to be used in a distributed context for Big Data use cases.
 
-For in-depth theoretical details, please read the main repository [**intro**](https://github.com/davidemiceli/basic-influence-roles/blob/main/README.md).
+This algorithm returns:
+- The Basic Influence Role (BIR) of a node in a network
+- The BIR's level
+- The influence measure related to the role
+- A global influence measure based on indegree and outdegree
+- The influence ranking of the node
+
+For in-depth theoretical details and more examples, please read the main repository [**intro**](https://github.com/davidemiceli/basic-influence-roles/blob/main/README.md).
 
 ## Index of contents
 
@@ -18,6 +25,7 @@ All useful informations can be found in the following paragraphs:
     - [**Outputs**](#results)
   - [**Distributions of roles**](#distribution-birs)
 - [**Testing**](#testing)
+- [**Citing**](#citing)
 - [**License**](#license)
 
 ## Installation <a name="installation"></a>
@@ -245,6 +253,27 @@ Or run the bash script:
 To run the coverage report:
 ```shell
 coverage report -m
+```
+
+## Citing <a name="citing"></a>
+
+If you use this software in your work, please cite it as below:
+```
+Miceli, D. (2024). Basic Influence Roles (BIRs) (Version 1.0.0) [Computer software]. https://github.com/davidemiceli/basic-influence-roles
+```
+
+Or the BibTeX version:
+
+```bibtex
+@software{MiceliBasicInfluenceRoles2024,
+  author = {Miceli, Davide},
+  license = {MIT},
+  month = mar,
+  title = {{Basic Influence Roles (BIRs)}},
+  url = {https://github.com/davidemiceli/basic-influence-roles},
+  version = {1.0.0},
+  year = {2024}
+}
 ```
 
 ## License <a name="license"></a>
