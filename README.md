@@ -53,9 +53,8 @@ For reliability aims, we provide two research notebooks, that can be also useful
 ## Citing
 
 If you use this software in your work, please cite it as below:
-```
-Miceli, D. (2024). Basic Influence Roles (BIRs) (Version 1.0.0) [Computer software]. https://github.com/davidemiceli/basic-influence-roles
-```
+
+> Miceli, D. (2024). Basic Influence Roles (BIRs) (Version 1.0.0) [Computer software]. https://github.com/davidemiceli/basic-influence-roles
 
 Or the BibTeX version:
 
