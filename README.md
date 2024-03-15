@@ -12,6 +12,7 @@ Given a large dataset of nodes as input, the algorithm provides:
 
 The algorithm is implemented in the following programming languages:
 - [**Python**](/python)
+- [**JavaScript**](/javascript)
 
 ## Basic Influence Roles (BIRs)
 
