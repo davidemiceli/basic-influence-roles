@@ -1,0 +1,51 @@
+{
+    "name": "basic-influence-roles",
+    "version": "1.0.0",
+    "description": "Detect and measure the Basic Influence Role each node holds within a Directed Network.",
+    "license": "MIT",
+    "main": "index.js",
+    "keywords": [
+        "influence network",
+        "clustering",
+        "graph theory",
+        "network science",
+        "data science",
+        "complex networks",
+        "network analysis",
+        "social network analysis",
+        "social science",
+        "socialscience",
+        "communication science",
+        "datascience",
+        "humanities",
+        "research",
+        "computational social science"
+    ],
+    "author": "davidemiceli",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/davidemiceli/basic-influence-roles.git"
+    },
+    "files": [
+        "index.js",
+        "birs",
+        "libs"
+    ],
+    "bugs": {
+        "url": "https://github.com/davidemiceli/basic-influence-roles/issues"
+    },
+    "maintainers": [
+        "davidemiceli"
+    ],
+    "homepage": "https://github.com/davidemiceli/basic-influence-roles",
+    "directories": {},
+    "scripts": {
+        "test": "nyc mocha test --recursive --full-trace"
+    },
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "graphology": "^0.25.4",
+        "mocha": "^10.3.0",
+        "nyc": "^15.1.0"
+    }
+}
