@@ -137,41 +137,41 @@ Field | Type | Description
 --- | --- | ---
 `id` | *any* | The id of node.
 `role` | *string* | The basic influence role.
-`role_influence` | *float* | The influence magnitude related to the node's role.
-`role_level` | *string* | The level of role, a role subcategory.
+`roleInfluence` | *float* | The influence magnitude related to the node's role.
+`roleLevel` | *string* | The level of role, a role subcategory.
 `influence` | *float* | A normalized influence score based on indegree and outdegree.
 `indegree` | *integer* | The number of incoming connections.
 `outdegree` | *integer* | The number of outcoming connections.
-`normalized_indegree` | *float* | The normalized number of incoming connections.
-`normalized_outdegree` | *float* | The normalized number of outcoming connections.
+`normalizedIndegree` | *float* | The normalized number of incoming connections.
+`normalizedOutdegree` | *float* | The normalized number of outcoming connections.
 `rank` | *integer* | The normalized influence ranking based on the value of *influence* field.
 
 ##### *Example*
 ```javascript
 [
     {
-        'id': 4,
-        'role': 'hub',
-        'role_influence': 5.83,
-        'role_level': 'strong',
-        'influence': 5.83,
-        'indegree': 16,
-        'outdegree': 19,
-        'normalized_indegree': 5.3,
-        'normalized_outdegree': 6.3,
-        'rank': 1
+        id: 4,
+        role: 'hub',
+        roleInfluence: 5.83,
+        roleLevel: 'strong',
+        influence: 5.83,
+        indegree: 16,
+        outdegree: 19,
+        normalizedIndegree: 5.3,
+        normalizedOutdegree: 6.3,
+        rank: 1
     },
     {
-        'id': 3,
-        'role': 'emitter',
-        'role_influence': 7.3,
-        'role_level': 'strong',
-        'influence': 3.6666666666666665,
-        'indegree': 0,
-        'outdegree': 22,
-        'normalized_indegree': 0.0,
-        'normalized_outdegree': 7.3,
-        'rank': 2
+        id: 3,
+        role: 'emitter',
+        roleInfluence: 7.3,
+        roleLevel: 'strong',
+        influence: 3.6666666666666665,
+        indegree: 0,
+        outdegree: 22,
+        normalizedIndegree: 0.0,
+        normalizedOutdegree: 7.3,
+        rank: 2
     },
     ...
 ]
