@@ -16,6 +16,8 @@ The algorithm is implemented in the following programming languages:
 
 ## Basic Influence Roles (BIRs)
 
+We have six basic influence roles summarized below.
+
 <p align="center">
   <img src="figs/roles.svg" width="600">
 </p>
@@ -31,11 +33,13 @@ Role | Description | Levels
 
 ## BIRs' Levels
 
+The levels of BIRs are subcategories based on the influence magnitude of every role. Below we have the description of every level and a graph representation of the branch nodes.
+
 <p align="center">
   <img src="figs/branch-roles.svg" width="400">
 </p>
 
-Role | Description
+Level | Description
 --- | --- |
 `None` | A total absence of influence.
 `Branch` | The lowest influence related to a given role.

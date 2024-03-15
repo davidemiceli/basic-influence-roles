@@ -247,7 +247,7 @@ At first, install dev requirements:
 npm install
 ```
 
-To run all unit tests with coverage, type:
+To run all unit tests with coverage through nyc, type:
 ```shell
 npm test
 ```
