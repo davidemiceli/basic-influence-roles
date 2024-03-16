@@ -1,2 +1,1 @@
-research-notebooks/* linguist-documentation
-docs/* linguist-documentation
+*.ipynb linguist-documentation
