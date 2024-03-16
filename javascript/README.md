@@ -255,7 +255,7 @@ npm test
 ## Citing <a name="citing"></a>
 
 If you use this software in your work, please cite it as below:
-> Miceli, D. (2024). Basic Influence Roles (BIRs) (Version 1.0.0) [Computer software]. https://github.com/davidemiceli/basic-influence-roles
+> Miceli, D. (2024). Basic Influence Roles (BIRs) [Computer software]. https://github.com/davidemiceli/basic-influence-roles
 
 Or the BibTeX version:
 
@@ -266,7 +266,6 @@ Or the BibTeX version:
   month = mar,
   title = {{Basic Influence Roles (BIRs)}},
   url = {https://github.com/davidemiceli/basic-influence-roles},
-  version = {1.0.0},
   year = {2024}
 }
 ```

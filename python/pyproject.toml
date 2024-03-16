@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "basic-influence-roles"
-version = "1.0.0"
+version = "1.0.2"
 authors = [
     { name = "Davide Miceli" },
 ]
@@ -12,7 +12,7 @@ maintainers = [
     { name = "Davide Miceli" },
 ]
 license = { file = "LICENSE" }
-description = "Python package to detect and measure the Basic Influence Role each node holds within a Directed Network."
+description = "Detect and measure the Basic Influence Role each node holds within a Directed Network."
 readme = "README.md"
 requires-python = ">=3.0"
 classifiers = [
