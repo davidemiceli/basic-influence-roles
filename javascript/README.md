@@ -121,7 +121,7 @@ Field | Type | Required	| Description
 ##### *Example*
 ```javascript
 // Get the total count of nodes
-node_count = 8586987087;
+nodeCount = 8586987087;
 // For every node in a huge network (use here a distributed loop instead)
 nodes.map(([indegree, outdegree]) => {
     // Get basic influence role of every node in network
