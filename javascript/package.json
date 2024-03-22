@@ -1,6 +1,6 @@
 {
     "name": "basic-influence-roles",
-    "version": "1.0.1",
+    "version": "1.0.5",
     "description": "Detect and measure the Basic Influence Role each node holds within a Directed Network.",
     "license": "MIT",
     "main": "index.js",
