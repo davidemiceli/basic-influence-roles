@@ -10,6 +10,8 @@ def rank(data):
 
 def detect(indegree, outdegree, node_count, data=False):
     """Detect Basic Influence Role """
+    if indegree >= node_count or outdegree >= node_count:
+        raise Exception('Node count must be greater than indegree or outdegree.')
     return basic_influence_role(indegree, outdegree, node_count, data)
 
 def distribution(data=[]):

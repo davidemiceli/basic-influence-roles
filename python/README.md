@@ -142,25 +142,25 @@ Field | Type | Description
     {
         'id': 4,
         'role': 'hub',
-        'role_influence': 5.83,
+        'role_influence': 0.9210526315789473,
         'role_level': 'strong',
-        'influence': 5.83,
+        'influence': 0.9210526315789473,
         'indegree': 16,
         'outdegree': 19,
-        'normalized_indegree': 5.3,
-        'normalized_outdegree': 6.3,
+        'normalized_indegree': 0.8421052631578947,
+        'normalized_outdegree': 1.0,
         'rank': 1
     },
     {
         'id': 3,
         'role': 'emitter',
-        'role_influence': 7.3,
+        'role_influence': 0.9473684210526315,
         'role_level': 'strong',
-        'influence': 3.6666666666666665,
+        'influence': 0.47368421052631576,
         'indegree': 0,
-        'outdegree': 22,
+        'outdegree': 18,
         'normalized_indegree': 0.0,
-        'normalized_outdegree': 7.3,
+        'normalized_outdegree': 0.9473684210526315
         'rank': 2
     },
     ...
