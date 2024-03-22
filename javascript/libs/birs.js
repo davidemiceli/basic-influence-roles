@@ -6,7 +6,10 @@ const {basicInfluenceRole, sortData, rolesFrequencies } = require('./libs');
 const rank = data => data.sort(sortData).reverse().map((d, i) => { d.rank = i + 1; return d; });
 
 // Detect Basic Influence Role
-const detect = (indegree, outdegree, nodeCount, data = false) => basicInfluenceRole(indegree, outdegree, nodeCount, data);
+const detect = (indegree, outdegree, nodeCount, data) => {
+    if (indegree >= nodeCount || outdegree >= nodeCount) throw Error('Node count must be greater than indegree or outdegree.');
+    return basicInfluenceRole(indegree, outdegree, nodeCount, data);
+}
 
 const distribution = data => {
     // Calculate distribution of BIRs

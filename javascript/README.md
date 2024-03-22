@@ -121,7 +121,7 @@ Field | Type | Required	| Description
 ##### *Example*
 ```javascript
 // Get the total count of nodes
-node_count = 8586987087;
+nodeCount = 8586987087;
 // For every node in a huge network (use here a distributed loop instead)
 nodes.map(([indegree, outdegree]) => {
     // Get basic influence role of every node in network
@@ -152,25 +152,25 @@ Field | Type | Description
     {
         id: 4,
         role: 'hub',
-        roleInfluence: 5.83,
+        roleInfluence: 0.9210526315789473,
         roleLevel: 'strong',
-        influence: 5.83,
+        influence: 0.9210526315789473,
         indegree: 16,
         outdegree: 19,
-        normalizedIndegree: 5.3,
-        normalizedOutdegree: 6.3,
+        normalizedIndegree: 0.8421052631578947,
+        normalizedOutdegree: 1.0,
         rank: 1
     },
     {
         id: 3,
         role: 'emitter',
-        roleInfluence: 7.3,
+        roleInfluence: 0.9473684210526315,
         roleLevel: 'strong',
-        influence: 3.6666666666666665,
+        influence: 0.47368421052631576,
         indegree: 0,
-        outdegree: 22,
+        outdegree: 18,
         normalizedIndegree: 0.0,
-        normalizedOutdegree: 7.3,
+        normalizedOutdegree: 0.9473684210526315
         rank: 2
     },
     ...
